@@ -1,0 +1,47 @@
+    /* common share style  */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.paragraph{
+    height: 90px;
+    width: 630px;
+    margin-bottom: 70px;
+}
+.btn-primary{
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+}
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    padding: 50px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-pic{
+    height: 800px;
+    width: 635px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+}
+#tell{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
