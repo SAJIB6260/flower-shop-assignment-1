@@ -11,6 +11,7 @@ p{
 }
     /* class share style  */
 .paragraph-1{
+    padding: 0px 140px 0px 0px;
     height: 90px;
     width: 630px;
     margin-bottom: 70px;
@@ -73,7 +74,7 @@ font-weight: 700;
  }
 .text{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     padding: 0px 380px 0px 380px;
     color: #272727;
     text-align: center;
@@ -110,4 +111,36 @@ font-weight: 700;
     justify-content: space-between;
     gap: 30px;
     padding: 0px 240px 0px 240px;
+}
+.offer-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+.section-2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.section-2-left{
+    padding: 230px 200px 160px 200px;
+    align-items: flex-start;
+}
+.offer-section button{
+    margin-left: 200px;
+}
+.image-4{
+    height: 420px;
+    width: 320px;
+}
+.section-2-right{
+    padding: 200px 200px 200px 0px ;
+}
+.paragraph-3{
+    text-align: center;
+    width: 590px;
+}
+.offer-title{
+    width: 590px;
+    margin-left: 120px;
 }
