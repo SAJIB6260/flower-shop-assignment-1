@@ -24,6 +24,7 @@ p{
     font-size: 20px;
     font-weight: 700;
     border: 0px;
+    height: 65px;
 }
 .header{
     background: rgba(229, 84, 115, 0.10);
@@ -155,9 +156,40 @@ font-weight: 700;
     padding: 10px 240px;
     display: flex;
     justify-content: space-between;
-    gap: 25px;
 }
 .image-5{
     height: 390px;
     width: 340px;
+}
+.section-4{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 240px;
+    background-size: 1450px 450px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe-button{
+    display: flex;
+    justify-content: center;  
+}
+.subscribe input, button{
+    gap: 5px;
+}
+input{
+    height: 65px;
+    width: 700px;
+    border-radius: 8px;
+    background-color: #FFF;
+}
+footer{
+    background: #111010;
+    padding: 128px 650px;
+    text-align: center;
+}
+.paragraph-6{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
 }
